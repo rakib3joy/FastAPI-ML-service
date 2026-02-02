@@ -1,7 +1,18 @@
 # FastAPI-ML-service
-Production-ready FastAPI service for deploying machine learning models with clean API design, database integration, and scalability best practices.
 
-Production-ready FastAPI service for deploying machine learning models with clean API design, database integration, and scalability best practices.
+A production-oriented FastAPI backend for building and deploying machine learning–powered APIs with clean architecture, database integration, and scalable design practices.
+
+## Overview
+This project demonstrates how to design and implement RESTful APIs using FastAPI, integrate relational databases, and serve trained machine learning models through well-structured endpoints.
+
+The focus is on writing clean, maintainable backend code that follows industry best practices.
+
+## Features Implemented
+- RESTful API design with proper HTTP methods and status codes
+- Request and response validation using Pydantic
+- Modular FastAPI application structure
+- Database integration using SQLAlchemy (CRUD operations)
+- Machine learning model loading and inference via API endpoints
 
 ## Tech Stack
 - FastAPI
@@ -9,7 +20,8 @@ Production-ready FastAPI service for deploying machine learning models with clea
 - SQLAlchemy
 - PostgreSQL
 - Scikit-learn / Keras
-- Docker
+- Uvicorn
 
-## Status
-🚧 Work in progress. Features and documentation will be updated as development progresses.
+## Project Status
+🚧 Work in progress  
+Upcoming improvements include authentication, performance optimization, and deployment enhancements.
